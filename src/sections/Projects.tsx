@@ -3,7 +3,7 @@ import turing from "../assets/turing.jpeg";
 import zucaEntregas from "../assets/zuca.png";
 import corretei from "../assets/corretei.png";
 import dreMetrics from "../assets/dre_metrics.png";
-import meycare from "../assets/dre_metrics.png";
+import meycare from "../assets/meycare.jpg";
 import { ProjectCard } from "../components/ProjectCard";
 
 export default function Projects() {
@@ -28,31 +28,31 @@ export default function Projects() {
       id: 3,
       title: "Zuca Entregas",
       description:
-        "Projeto financeiro, onde é possível fazer solicitaçoes de empréstimo, simular parcelas, e acompanhar o status da solicitação.  ",
+        "Projeto de logística, onde é possível solicitar entregas entre filiais de uma empresa, e acompanhar o status da entrega.  ",
       image: zucaEntregas,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Corretei",
       description:
-        "Projeto financeiro, onde é possível fazer solicitaçoes de empréstimo, simular parcelas, e acompanhar o status da solicitação.  ",
+        "Projeto consite em um sistema que conecta corretores de imóveis a pessoas que desejam vender ou alugar seus imóveis.",
       image: corretei,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
     {
-      id: 4,
+      id: 5,
       title: "DRE Metrics",
       description:
-        "Projeto financeiro, onde é possível fazer solicitaçoes de empréstimo, simular parcelas, e acompanhar o status da solicitação.  ",
+        "Aplicativo de gestão financeira para pequenas e médias empresas.  ",
       image: dreMetrics,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Meycare",
       description:
-        "Projeto financeiro, onde é possível fazer solicitaçoes de empréstimo, simular parcelas, e acompanhar o status da solicitação.  ",
+        "APlicativo de vendas de produtos capilares, onde é possível ganahr pontos a cada compra, e trocar por descontos e produtos grátis.  ",
       image: meycare,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
@@ -67,7 +67,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="min-h-screen flex flex-col px-6 md:px-[10%] gap-10 py-20">
+    <section className="min-h-screen flex flex-col px-6 md:px-[10%] gap-10 py-20 ">
       <h2 className="text-3xl font-bold">Meus Projetos</h2>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

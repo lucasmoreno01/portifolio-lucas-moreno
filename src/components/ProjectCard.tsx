@@ -12,7 +12,7 @@ export function ProjectCard({
   tools,
 }: ProjectCardProps) {
   return (
-    <div className="border-[2px] border-border rounded-2xl overflow-hidden flex flex-col">
+    <div className="border-[2px] border-border rounded-2xl overflow-hidden flex flex-col hover:scale-[1.05] transition">
       <div className="h-48 overflow-hidden">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>

@@ -7,9 +7,16 @@ interface AboutSectionProps {
 
 export function AboutSection({ title, children }: AboutSectionProps) {
   return (
-    <div className="flex flex-col gap-[8px] border-[2px] border-border rounded-2xl overflow-hidden p-6">
-      <h1 className="text-4xl font-bold">{title}</h1>
-      {children}
+    <div className="group relative flex flex-col gap-4 rounded-2xl border border-border bg-white/5 p-6 backdrop-blur-xl transition">
+      
+      <h2 className="text-2xl md:text-3xl font-semibold">
+        {title}
+      </h2>
+
+      <div className="text-text-muted leading-relaxed">
+        {children}
+      </div>
+
     </div>
   );
 }
