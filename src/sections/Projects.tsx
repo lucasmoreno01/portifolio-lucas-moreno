@@ -20,7 +20,7 @@ export default function Projects() {
       id: 2,
       title: "Turing",
       description:
-        "Projeto financeiro, onde é possível fazer solicitaçoes de empréstimo, simular parcelas, e acompanhar o status da solicitação.  ",
+        "Projeto que envolveu o uso de IA e mapeaamento para fazer o gerêncimento de plantações.  ",
       image: turing,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
@@ -52,7 +52,7 @@ export default function Projects() {
       id: 6,
       title: "Meycare",
       description:
-        "APlicativo de vendas de produtos capilares, onde é possível ganahr pontos a cada compra, e trocar por descontos e produtos grátis.  ",
+        "Aplicativo de vendas de produtos capilares, onde é possível ganahr pontos a cada compra, e trocar por descontos e produtos grátis.  ",
       image: meycare,
       tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
     },
