@@ -1,9 +1,9 @@
 import boraNegocios from "../assets/bora_negocios.jpg";
-import turing from "../assets/turing.jpeg";
-import zucaEntregas from "../assets/zuca.png";
 import corretei from "../assets/corretei.png";
 import dreMetrics from "../assets/dre_metrics.png";
 import meycare from "../assets/meycare.jpg";
+import turing from "../assets/turing.jpeg";
+import zucaEntregas from "../assets/zuca.png";
 import { ProjectCard } from "../components/ProjectCard";
 
 export default function Projects() {
@@ -22,7 +22,7 @@ export default function Projects() {
       description:
         "Projeto que envolveu o uso de IA e mapeaamento para fazer o gerêncimento de plantações.  ",
       image: turing,
-      tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
+      tools: ["Flutter", "Dart", "Firebase"],
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export default function Projects() {
       description:
         "Projeto de logística, onde é possível solicitar entregas entre filiais de uma empresa, e acompanhar o status da entrega.  ",
       image: zucaEntregas,
-      tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
+      tools: ["Flutter", "Dart", "Firebase"],
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export default function Projects() {
       description:
         "Projeto consite em um sistema que conecta corretores de imóveis a pessoas que desejam vender ou alugar seus imóveis.",
       image: corretei,
-      tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
+      tools: ["Flutter", "PostgreSQL", "Firebase"],
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ export default function Projects() {
       description:
         "Aplicativo de gestão financeira para pequenas e médias empresas.  ",
       image: dreMetrics,
-      tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
+      tools: ["Flutter", "Dart", "Firebase"],
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ export default function Projects() {
       description:
         "Aplicativo de vendas de produtos capilares, onde é possível ganahr pontos a cada compra, e trocar por descontos e produtos grátis.  ",
       image: meycare,
-      tools: ["Flutter", "Next JS", "PostgreSQL", "Firebase"],
+      tools: ["Flutter", "Dart", "Firebase"],
     },
     // {
     //   id: 3,
